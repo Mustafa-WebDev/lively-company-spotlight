@@ -12,9 +12,9 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-white animate-fade-in">
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
+            <h1 className="text-5xl lg:text-7xl font-bold leading-tight mt-20 mb-6">
               Transform Your 
-              <span className="block text-transparent bg-gradient-to-r from-white to-primary-glow bg-clip-text animate-float">
+              <span className="block text-transparent bg-gradient-to-r from-white to-primary-glow bg-clip-text">
                 Business Today
               </span>
             </h1>
@@ -22,7 +22,7 @@ const Hero = () => {
               We deliver innovative solutions that drive growth, enhance efficiency, 
               and create lasting value for your business.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col my-2 sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="group">
                 Get Started
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -42,7 +42,7 @@ const Hero = () => {
                 alt="Professional team collaboration" 
                 className="rounded-2xl shadow-glow w-full animate-float"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl" />
+              <div className="absolute inset-1 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl" />
             </div>
           </div>
         </div>
