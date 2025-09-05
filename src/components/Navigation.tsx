@@ -20,7 +20,7 @@ const Navigation = () => {
 
             {/* Logo */}
             <a href="/">
-            <img style={{width:"50px",padding:"0px",margin:"0px"}} src="/src/assets/image-removebg-preview.png" alt="logo" />
+            <img style={{width:"50px",padding:"0px",margin:"0px"}} src="/src/assets/image-removebg-preview (1).png" alt="logo" />
             </a>
 
             {/* <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
